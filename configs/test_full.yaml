@@ -1,0 +1,13 @@
+load_dir: ./chair_log_full/TEXT_NEWFULL_cage_retrieval/chair-12kpt
+
+full_check_name: model_full_199.pth
+partial_check_name : model_partial_199.pth
+rd_check_name: model_randd_199.pth
+
+test_batch: 1
+
+save_dir: test_partial
+
+top_k: 10
+
+use_partial: True

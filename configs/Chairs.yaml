@@ -1,0 +1,16 @@
+name: chair-12kpt
+
+category: '03001627'
+split: 'train'
+
+mesh_dir: 'datasets/ShapeNetCore.v1'
+# mesh_dir: 'data/shapenet/shape_data'
+split_file: 'code/I-RED-main/dataset/shapenet_split/partnet.csv'
+log_dir: 'Chair'
+points_dir: None
+
+n_keypoints: 12
+
+cross_batch_size: 12
+cross_total_epochs: 200
+cross_lr: 0.0006
