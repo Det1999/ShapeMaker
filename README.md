@@ -1,4 +1,4 @@
-# [ShapeMaker]
+# ShapeMaker
 
 ## Install
 
