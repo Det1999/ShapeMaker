@@ -33,7 +33,7 @@ If you want to train using other categories, besides changing the config file, y
 ## Testing
 To test the trained R&D model on full or partial point clouds run:
 ```
-python tools/cage_EVAL.py -c configs/Tables.yaml
+python tools/cage_EVAL.py -c configs/Tables.yaml -t configs/test.yaml 
 ```
 During testing, you may need to modify the hyperparameter RATE in the test file, as well as the corresponding weight names to be loaded.
 
