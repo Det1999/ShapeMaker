@@ -63,7 +63,7 @@ def train():
     arg_parser = cross_options.initialize(arg_parser)
 
     opt = arg_parser.parse_args()
-    opt.config = 'configs/Cab.yaml'
+    #opt.config = 'configs/Cab.yaml'
     #opt.config = 'configs/Tables.yaml'
     opt = combine_flags(opt, config_path=opt.config)
     log_dir = opt.log_dir+'_FULL_cage_retrieval' + '/' + opt.name
