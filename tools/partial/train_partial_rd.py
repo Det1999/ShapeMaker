@@ -76,7 +76,7 @@ def train():
     opt = arg_parser.parse_args()
     
     opt = occu_select(opt)
-    opt.config = 'configs/Tables.yaml'
+    #opt.config = 'configs/Tables.yaml'
     opt = combine_flags(opt, config_path=opt.config)
     log_dir = opt.log_dir+'_partial_rd_0.75' + '/' + opt.name
     if not os.path.exists(log_dir):
