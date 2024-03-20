@@ -12,7 +12,7 @@ conda activate ShapeMaker
 ## Training
 Download [ShapeNet](https://shapenet.org/download/shapenetcore) to `datasets/ShapeNetCore.v1`.
 
-When using the full target point cloud as input, the training is divided into four stages, namely training Module Canonicalization (1), training Module Segmentation (2), training Module Retrieval (3), and training Module Deformation (4). When using Class chair, the specifics are as follows:
+When using the full target point cloud as input, the training is divided into four stages, namely training Module Canonicalization (1), training Module Segmentation (2), training Module Deformation (3), and training Module Retrieval (4). When using Class chair, the specifics are as follows:
 ```
 1. python tools/full/train_full.py -c configs/Tables.yaml
 2. python tools/full/train_rd_kp_seg.py -c configs/Tables.yaml
