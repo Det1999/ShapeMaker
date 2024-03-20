@@ -30,6 +30,10 @@ When using partial point clouds as input, the training is divided into five stag
 ```
 If you want to train using other categories, besides changing the config file, you may need to modify the names of the weights in the training file.
 
-##Testing
-
+## Testing
+To test the trained R&D model on full or partial point clouds run:
+```
+python tools/cage_EVAL.py -c configs/Tables.yaml
+```
+During testing, you may need to modify the hyperparameter RATE in the test file, as well as the corresponding weight names to be loaded.
 
