@@ -1,4 +1,5 @@
-# ShapeMaker
+# ShapeMatcher: Self-Supervised Joint Shape Canonicalization, Segmentation, Retrieval and Deformation, CVPR2024
+Yan Di, Chenyangguang Zhang, Chaowei Wang, Ruida Zhang, Guangyao Zhai, Yanyan Li, Bowen Fu, Xiangyang Ji and Shan Gao
 
 ## Install
 
