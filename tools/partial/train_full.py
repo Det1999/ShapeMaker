@@ -25,11 +25,11 @@ def train():
     arg_parser = full_options.initialize(arg_parser)
     opt = arg_parser.parse_args()
     ### load config
-    opt = combine_flags(opt, config_path='configs/Tables.yaml')
+    opt = combine_flags(opt, config_path=opt.config)
     ### about TensorBoard
     writer = SummaryWriter(logdir=opt.log_dir)
     ### load dataconfig
-    opt_dataset = dataset_options.combine_configs(file_path='configs/Tables.yaml')
+    opt_dataset = dataset_options.combine_configs(file_path=opt.config)
     ### create dataset
     dataset = Shapes(opt_dataset)
     ### len of dataset,img
