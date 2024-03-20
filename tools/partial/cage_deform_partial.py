@@ -75,7 +75,7 @@ def train():
     opt = arg_parser.parse_args()
     
     opt = occu_select(opt)
-    opt.config = 'configs/Tables.yaml'
+    #opt.config = 'configs/Tables.yaml'
     
     opt = combine_flags(opt, config_path=opt.config)
     log_dir = opt.log_dir+'_cage_deform_0.75' + '/' + opt.name
