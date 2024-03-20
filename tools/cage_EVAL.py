@@ -273,11 +273,11 @@ def test(opt, opt_dataset, opt_test):
     
     # load source_datasets
     logger.info('Loading source datasets......')
-    opt.config = 'configs/Cab.yaml'
-    opt_dataset.config = 'configs/Cab.yaml'
+    #opt.config = 'configs/Cab.yaml'
+    opt_dataset.config = opt.config
     opt_dataset.category = '02871439'
     
-    opt_test.config = 'configs/Cab.yaml'
+    opt_test.config = opt.config
     RATE = 1
     occu_select(opt,RATE)
     
