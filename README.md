@@ -37,3 +37,6 @@ python tools/cage_EVAL.py -c configs/Tables.yaml -t configs/test.yaml
 ```
 During testing, you may need to modify the hyperparameter RATE in the test file, as well as the corresponding weight names to be loaded.
 
+## Checkpoint
+We have released the checkpoint we obtained during our training process. You can click the link to download: [ShapeMatcher](https://drive.google.com/drive/folders/1JcYgRoZq2QyTYLw0JQY_UseelfzenukJ?usp=drive_link).
+
